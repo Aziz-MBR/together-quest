@@ -2,6 +2,8 @@
   "name": "together-quest",
   "version": "1.0.0",
   "private": true,
+  "author": "Айза Исаева",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=22"
   },

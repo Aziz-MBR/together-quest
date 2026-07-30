@@ -1054,6 +1054,18 @@ footer b {
   font-weight: 900;
 }
 
+.footer-signature {
+  display: grid;
+  gap: 3px;
+}
+
+.footer-signature small {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.03em;
+}
+
 .modal-backdrop {
   position: fixed;
   inset: 0;

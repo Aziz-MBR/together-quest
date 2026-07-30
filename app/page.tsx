@@ -1064,7 +1064,10 @@ export default function Home() {
       </section>
 
       <footer>
-        <span>{data.members.map((item) => item.name).join(" + ")}</span>
+        <div className="footer-signature">
+          <span>© 2026 Айза Исаева</span>
+          <small>Разработка продукта · июнь 2026</small>
+        </div>
         <p>AI превращает описание в маршрут. Люди выбирают, что делать дальше.</p>
         <b>
           {data.goal.icon} {deadlineLabel(data.goal.deadline)}
